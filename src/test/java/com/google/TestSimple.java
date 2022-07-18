@@ -12,7 +12,7 @@ public class TestSimple {
     
     @Test
     public void secondSimpleTest(){
-        Assert.assertEquals("5" + "8", "58");
+        Assert.assertEquals("5" + "8", "13");
     }
     
     @Test

@@ -8,22 +8,21 @@ import org.testng.annotations.Test;
 
 
 public class TestSimple {
-    private WebDriver driver;
 
-//     @BeforeTest
-//     public void setUp(){
-//         WebDriverManager.edgedriver().setup();
-//         driver = new EdgeDriver();
-//     }
+    @Test
+    public void simpleTest(){
+        Assert.assertEquals(5 + 8, 13)
+    }
+    
+    @Test
+    public void secondSimpleTest(){
+        Assert.assertEquals("5" + "8", "58")
+    }
+    
+    @Test
+    public void thirdSimpleTest(){
+        Assert.assertEquals(5 + 8, 8 + 5)
+    }
 
-//     @Test
-//     public void simpleTest(){
-//         driver.navigate().to("https://google.com");
-//     }
-
-//     @AfterClass
-//     public void tearDown(){
-//         driver.close();
-//         driver = null;
-//     }
+  
 }

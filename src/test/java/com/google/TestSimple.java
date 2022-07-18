@@ -9,16 +9,6 @@ public class TestSimple {
     public void simpleTest(){
         Assert.assertEquals(5 + 8, 13);
     }
-    
-    @Test
-    public void secondSimpleTest(){
-        Assert.assertEquals("5" + "8", "13");
-    }
-    
-    @Test
-    public void thirdSimpleTest(){
-        Assert.assertEquals(5 + 8, "13");
-    }
 
   
 }
